@@ -31,5 +31,4 @@ puts "========COMICS ON SALE========"
     
     end
   end
-
 end

@@ -16,3 +16,4 @@ sale_elements.map do |element|
    end
   end
   end
+  
