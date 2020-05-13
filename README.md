@@ -1,4 +1,4 @@
-# MycomicsSale
+# MyComicsSale
 By using MyComicsSale App you will get the best comic book discounts!
 
 
