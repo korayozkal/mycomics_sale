@@ -56,7 +56,7 @@ def run
 greet 
 get_user_name
 start_scraping_wolverine
-Sale.print_all_sales
+Sale.all.print_all_sales
     
 end
 end
