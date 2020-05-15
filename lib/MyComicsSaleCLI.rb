@@ -60,16 +60,12 @@ puts "Thanks to Wolverine, here are all the comics on sale"
 sleep(4.0)
 end 
 
-def prompt_to_pick_campaign
-    puts "Enter the number of the Campaign you want to read"
-end 
     
 def run
 greet 
 get_user_name
 start_scraping_wolverine
 Sale.print_all_sales
-prompt_to_pick_campaign
-    
+
 end
 end

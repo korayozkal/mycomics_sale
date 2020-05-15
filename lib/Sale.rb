@@ -19,8 +19,7 @@ class Sale
 end
 
 def self.print_all_sales
-@@all.each_with_index do |sale, index|
-puts "=== SALE CAMPAIGN ##{index + 1} ==="
+Sale.all.each do |sale|
 puts "Book Title:"  
 puts sale.book_title
 puts sale.book_number
