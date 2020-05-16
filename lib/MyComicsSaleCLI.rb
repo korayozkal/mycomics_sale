@@ -45,13 +45,13 @@ def get_user_name
     
 def start_scraping_wolverine    
 puts "We are about to list all the discount campaings "
-sleep(2.0)
+sleep(3.0)
 puts "Hold on we will ask for some help from Spider-man"
-sleep(2.0)
+sleep(3.0)
 puts "It looks like Spider-Man is stuck in Lincoln Tunnel"
-sleep(2.0)
+sleep(3.0)
 puts "But don’t worry, our app called X-Men" 
-sleep(2.0)
+sleep(3.0)
 puts "Wolverine is here to scrape all the great discounts with his adamantium claws" 
 sleep(2.0)
 MyComicsSaleScraper.scrape_comics_sale    
