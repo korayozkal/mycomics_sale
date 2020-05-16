@@ -1,7 +1,6 @@
 class MyComicsSaleCLI
 attr_accessor :username
 
-   
 def greet    
 puts "========Hey! Welcome to the MyComicsSale App========"
 puts "******************************************************************

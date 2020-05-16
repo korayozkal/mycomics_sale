@@ -19,7 +19,8 @@ class Sale
 end
 
 def self.print_all_sales
-Sale.all.each do |sale|
+@@all.each_with_index do |sale, index| 
+puts "== Sale ##{index + 1} ==="
 puts "Book Title:"  
 puts sale.book_title
 puts sale.book_number
@@ -31,3 +32,4 @@ puts "========COMICS ON SALE========"
     
     end
   end
+end 
