@@ -39,7 +39,7 @@ def get_user_name
     self.username = name
     puts "Welcome, #{self.username}"
     puts "By using My Comics Sale App you will get the best comic book discounts"
-    sleep(2.0)
+    sleep(4.0)
     system("clear")
   end
     
@@ -56,7 +56,7 @@ puts "Wolverine is here to scrape all the great discounts with his adamantium cl
 sleep(2.0)
 MyComicsSaleScraper.scrape_comics_sale    
 puts "Thanks to Wolverine, here are all the comics on sale"
-sleep(2.0)
+sleep(4.0)
 end 
 
     
