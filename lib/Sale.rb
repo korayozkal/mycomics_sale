@@ -2,13 +2,14 @@ class Sale
 
   @@all = []
 
-  attr_accessor :book_title, :book_number, :book_price, :book_original_price
+  attr_accessor :book_title, :book_number, :book_price, :book_original_price, :description_link, :book_description
 
-  def initialize(book_title, book_number, book_price, book_original_price)
+  def initialize(book_title, book_number, book_price, book_original_price,description_link)
     @book_title = book_title
     @book_number = book_number
     @book_price = book_price
     @book_original_price = book_original_price
+    @description_link = description_link
     @@all << self
   end
 
@@ -17,17 +18,4 @@ class Sale
 
 end
 
-def self.print_all_sales
-@@all.each_with_index do |sale, index|
-puts "========COMICS ON SALE #{index +1} ========" 
-puts "Book Title:"  
-puts sale.book_title
-puts sale.book_number
-puts "Sales Price:"
-puts sale.book_price 
-puts "Original Price:"
-puts sale.book_original_price
-
-    end
-  end
 end 
