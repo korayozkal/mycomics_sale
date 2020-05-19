@@ -37,23 +37,23 @@ class MyComicsSaleCLI
       self.username = name
       puts "Welcome, #{self.username}"
       puts "By using My Comics Sale App you will get the best comic book discounts"
-      #sleep(4.0)
+      sleep(4.0)
       system("clear")
     end
   def start_scraping_wolverine
   puts "We are about to list all the discount campaings "
-  #sleep(3.0)
+  sleep(3.0)
   puts "Hold on we will ask for some help from Spider-man"
-  #sleep(3.0)
+  sleep(3.0)
   puts "It looks like Spider-Man is stuck in Lincoln Tunnel"
-  #sleep(3.0)
+  sleep(3.0)
   puts "But don't worry, our app called X-Men"
-  #sleep(3.0)
+  sleep(3.0)
   puts "Wolverine is here to scrape all the great discounts with his adamantium claws"
-  #sleep(2.0)
+  sleep(2.0)
   MyComicsSaleScraper.scrape_comics_sale
   puts "Thanks to Wolverine, here are all the comics on sale"
-  #sleep(4.0)
+  sleep(4.0)
   end
   def print_all_sales
   Sale.all.each_with_index do |sale, index|
@@ -83,7 +83,7 @@ class MyComicsSaleCLI
         single_description
       else
         puts "Thanks for using MyComicsSale App."
-        sleep(4)
+        sleep(3)
       end
     else
       puts "Error Message"
