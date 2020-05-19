@@ -13,7 +13,7 @@ sale_elements.map do |element|
   book_number = element.css('.content-subtitle.cu-alc').text
   book_price = element.css('.item-price').text
   book_original_price = element.css('.item-full-price.cu-alc').text
-  description_link = scraping_comics_sale.css('.content-img-link').attr('href').value
+  description_link = element.css('.content-img-link').attr('href').value
   new_sale = Sale.new(book_title,book_number, book_price,book_original_price, description_link)
  end
   end
