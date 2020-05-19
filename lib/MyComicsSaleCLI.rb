@@ -43,7 +43,7 @@ class MyComicsSaleCLI
   def start_scraping_wolverine
   puts "We are about to list all the discount campaings "
   sleep(3.0)
-  puts "Hold on we will ask for some help from Spider-man"
+  puts "Hold on we will ask for some help from Spider-Man"
   sleep(3.0)
   puts "It looks like Spider-Man is stuck in Lincoln Tunnel"
   sleep(3.0)
