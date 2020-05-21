@@ -87,7 +87,7 @@ class MyComicsSaleCLI
         sleep(3)
       end
     else
-      puts "Error Message"
+      puts "Error Message - Please enter a valid campaign number"
       single_description
     end
   end
