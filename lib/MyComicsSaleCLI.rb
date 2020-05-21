@@ -70,9 +70,10 @@ class MyComicsSaleCLI
   def single_description
     puts "Please enter Sale campaign number to see the book description"
     display_input = gets.chomp
-    selected_sale = Sale.all[display_input.to_i - 1] if Sale.all[display_input.to_i - 1].is_a?(Sale) && display_input.to_i > 0
-    MyComicsSaleScraper.scrape_description(selected_sale)
+    
+    selected_sale = Sale.all[display_input.to_i - 1] if display_input.to_i > 0
     if selected_sale
+      MyComicsSaleScraper.scrape_description(selected_sale)
       puts "#{selected_sale.book_description}"
       puts
       puts
